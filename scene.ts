@@ -5,7 +5,7 @@ import { SyncNodeData } from "./node";
 export class SyncSceneData extends SyncDataBase {
     __type__ = 'cc.Scene'
 
-    children: (SyncNodeData | string)[] = [];
+    children: SyncNodeData[] = [];
 
     editorView: SyncNodeData | undefined = undefined;
 

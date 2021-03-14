@@ -9,6 +9,7 @@ export class SyncSubMeshData {
     colors: number[] = [];
     boneWeights: number[] = [];
     tangents: number[] = [];
+    joints: number[] = [];
 
     indices: number[] = [];
 }
