@@ -1,7 +1,7 @@
 import { SyncAssetData } from "./asset";
 
 
-export class SyncAnimationCurve {
+export class SyncAnimationCurveData {
     name = '';
     values: number[] = [];
     path = '';
@@ -9,7 +9,7 @@ export class SyncAnimationCurve {
 }
 
 export class SyncAnimationClipDetail {
-    curves: SyncAnimationCurve[] = [];
+    curves: SyncAnimationCurveData[] = [];
     keys: (number[])[] = [];
 }
 

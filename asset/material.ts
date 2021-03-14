@@ -26,6 +26,7 @@ export enum SyncMaterialPropertyType {
     Texture = 4
 }
 
+
 export class SyncMaterialPropertyData {
     name = '';
     value = '';
