@@ -12,15 +12,8 @@ export class SyncNodeData extends SyncDataBase {
     eulerAngles: IVec3 | undefined;
     rotation: IQuat | undefined;
 
-    children: (SyncNodeData | string)[] = [];
-    components: (SyncComponentData | string)[] = [];
+    children: SyncNodeData[] = [];
+    components: SyncComponentData[] = [];
 
     needMerge: boolean = false;
-
-    // only in creator
-    parentIndex = -1;
-    node: /*Node |*/ undefined;
-
-    mergeToNodeIndex = -1;
-    matrix: IMat4 | undefined;
 }
