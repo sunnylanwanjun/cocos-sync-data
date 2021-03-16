@@ -9,6 +9,7 @@ export class SyncSceneData extends SyncDataBase {
 
     editorView: SyncNodeData | undefined = undefined;
 
+    clearExported = false;
     exportBasePath = '';
     projectPath = '';
     assetBasePath = '';
