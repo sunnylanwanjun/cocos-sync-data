@@ -22,4 +22,6 @@ export class SyncMeshRendererData implements SyncComponentData {
 
     casterShadow = false;
     receiveShadow = false;
+
+    requestSettings = false;
 }
