@@ -3,6 +3,7 @@ import { SyncAssetData } from './asset';
 export enum ShaderType {
     Standard,
     ShaderGraph,
+    Custom,
     Source,
 }
 
