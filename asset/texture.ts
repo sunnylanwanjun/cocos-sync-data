@@ -15,6 +15,7 @@ export class SyncTextureMipmapDetail {
     height = 0;
     datas: number[] = [];
     dataPath = '';
+    rawDataPath = '';
 }
 
 export class SyncTextureDataDetail {
