@@ -1,4 +1,5 @@
 import { SyncAssetData } from "./asset";
+import { SyncAsyncAssetData } from './async-asset';
 
 
 export class SyncAnimationCurveData {
@@ -13,7 +14,7 @@ export class SyncAnimationClipDetail {
     keys: (number[])[] = [];
 }
 
-export class SyncAnimationClipData extends SyncAssetData {
+export class SyncAnimationClipData extends SyncAsyncAssetData {
     __type__ = 'SyncAnimationClip';
 
     clipName = '';

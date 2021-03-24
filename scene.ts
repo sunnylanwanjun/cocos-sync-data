@@ -1,4 +1,5 @@
 import { SyncAssetData } from "./asset/asset";
+import { SyncAsyncAssetData } from './asset/async-asset';
 import { SyncDataBase } from './data-base';
 import { SyncNodeData } from "./node";
 
@@ -15,5 +16,6 @@ export class SyncSceneData extends SyncDataBase {
     assetBasePath = '';
     forceSyncAsset = '';
     forceSyncAssetTypes: string[] = []
-    assets: (SyncAssetData | string)[] = [];
+    asyncAssets: SyncAsyncAssetData[] = [];
+    assets: SyncAssetData[] = [];
 }

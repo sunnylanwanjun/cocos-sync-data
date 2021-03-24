@@ -1,4 +1,4 @@
-import { SyncAssetData } from './asset';
+import { SyncAsyncAssetData } from './async-asset';
 
 export enum ShaderType {
     Standard,
@@ -7,7 +7,7 @@ export enum ShaderType {
     Source,
 }
 
-export class SyncShaderData extends SyncAssetData {
+export class SyncShaderData extends SyncAsyncAssetData {
     __type__ = 'cc.Shader';
 
     shaderType: ShaderType = ShaderType.Source;

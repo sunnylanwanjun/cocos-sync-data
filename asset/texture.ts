@@ -1,4 +1,5 @@
 import { SyncAssetData } from './asset';
+import { SyncAsyncAssetData } from './async-asset';
 
 export enum ImageDataFormat {
     RGBA,
@@ -23,7 +24,7 @@ export class SyncTextureDataDetail {
     mipmaps: SyncTextureMipmapDetail[] = [];
 }
 
-export class SyncTextureData extends SyncAssetData {
+export class SyncTextureData extends SyncAsyncAssetData {
     __type__ = 'cc.Texture'
 
     type = TextureType.Texture;

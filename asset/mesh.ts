@@ -1,4 +1,5 @@
 import { SyncAssetData } from './asset';
+import { SyncAsyncAssetData } from './async-asset';
 
 
 export class SyncSubMeshData {
@@ -14,7 +15,7 @@ export class SyncSubMeshData {
     indices: number[] = [];
 }
 
-export class SyncMeshData extends SyncAssetData {
+export class SyncMeshData extends SyncAsyncAssetData {
     __type__ = 'cc.Mesh';
 
     meshName = '';
