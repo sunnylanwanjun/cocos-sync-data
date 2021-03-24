@@ -5,14 +5,15 @@ export abstract class SyncAssetData extends SyncDataBase {
     __uuid__ = '';
 
     path = '';
+    srcPath = ''; // absolute path
+
+    shouldCheckSrc = true;
+    virtualAsset = false;
+    virtualAssetPath = '';
 
     // only in creator
     asset: /*Asset |*/ undefined | null;
 
-    srcPath = ''; // absolute path
     dstPath = '';
     dstUrl = '';
-
-    shouldCheckSrc = true;
-    virtualAsset = false;
 };
