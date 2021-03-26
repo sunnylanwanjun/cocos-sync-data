@@ -21,6 +21,7 @@ export class SyncTextureMipmapDetail {
 
 export class SyncTextureDataDetail {
     format = ImageDataFormat.RGBA;
+    scale = 1;
     mipmaps: SyncTextureMipmapDetail[] = [];
 }
 
