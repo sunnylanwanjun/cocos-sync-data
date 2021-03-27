@@ -37,6 +37,13 @@ interface IVec4 {
 interface IQuat extends IVec4 {
 }
 
+interface IColor {
+  r: number;
+  g: number;
+  b: number;
+  a: number;
+}
+
 interface IMat4 {
   m00: number;
   m01: number;
