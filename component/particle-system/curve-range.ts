@@ -14,7 +14,7 @@ export class Keyframe {
 }
 
 export class AnimationCurve {
-    keyFrames: Keyframe[] | null;
+    keyFrames: Keyframe[] = [];
 }
 
 export class CurveRange {
