@@ -36,8 +36,8 @@ export class MainData {
     simulationSpace = SimulationSpace.Local;
     simulationSpeed = 1.0;
 
-    startDelay: CurveRange | undefined;
-    startLifetime: CurveRange | undefined;
+    startDelay = new CurveRange;
+    startLifetime = new CurveRange;
 
     startColor = new GradientRange();
     scaleSpace = SimulationSpace.Local;
