@@ -4,6 +4,7 @@ import { SyncAsyncAssetData } from './async-asset';
 export enum ImageDataFormat {
     RGBA,
     RGBE,
+    RGBM,
 }
 
 export enum TextureType {
