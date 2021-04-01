@@ -4,4 +4,5 @@ export class SyncReflectionProbeData implements SyncComponentData {
     __type__ = 'sync.ReflectionProbe';
 
     bakedTexture = '';
+    radius = 0;
 }
