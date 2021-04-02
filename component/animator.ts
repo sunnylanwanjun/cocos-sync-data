@@ -1,7 +1,7 @@
 import { SyncComponentData } from "./component";
 
 export class SyncAnimatorData extends SyncComponentData {
-    __type__ = 'sync.AnimatorComponent';
+    __type__ = 'cc.SkeletalAnimation';
 
     clips: string[] = [];
     avatarMap: string[] = [];
